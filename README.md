@@ -15,9 +15,9 @@ yarn install
 ## How to use
 
 - Create the .env file based on the env-template.
-- Starts the server by executing:
+- Starts the script executing:
 ```sh
-yarn serve:development
+yarn trigger
 ```
 
 ## References

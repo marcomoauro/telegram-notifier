@@ -7,6 +7,9 @@
   "engines": {
     "node": ">=20"
   },
+  "scripts": {
+    "trigger": "node --env-file=.env bin/trigger.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marcomoauro/telegram-notifier.git"
@@ -23,6 +26,7 @@
   "homepage": "https://github.com/marcomoauro/telegram-notifier#readme",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.6.5"
+    "axios": "^1.6.5",
+    "cheerio": "^1.0.0-rc.12"
   }
 }
